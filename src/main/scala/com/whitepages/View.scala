@@ -7,7 +7,7 @@ import scala.tools.nsc.io.File
 import complete.DefaultParsers._
 import complete.Parser
 
-object VieView extends Plugin {
+object View extends Plugin {
 
   private case class pinfo(path: String, prefix: String, ver: String, pack: String, id: String)
 
